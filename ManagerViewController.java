@@ -15,6 +15,7 @@ public class ManagerViewController {
 
             Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
 
+            stage.setTitle("Employee View");
             stage.setScene(new Scene(root));
             stage.show();
         } catch (Exception e) {
@@ -30,6 +31,7 @@ public class ManagerViewController {
 
             Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
 
+            stage.setTitle("Inventory View");
             stage.setScene(new Scene(root));
             stage.show();
         } catch (Exception e) {
@@ -45,6 +47,7 @@ public class ManagerViewController {
 
             Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
 
+            stage.setTitle("Prices View");
             stage.setScene(new Scene(root));
             stage.show();
         } catch (Exception e) {
@@ -60,6 +63,7 @@ public class ManagerViewController {
 
             Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
 
+            stage.setTitle("Reports View");
             stage.setScene(new Scene(root));
             stage.show();
         } catch (Exception e) {
