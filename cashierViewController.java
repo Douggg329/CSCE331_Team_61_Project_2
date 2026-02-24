@@ -75,6 +75,9 @@ public class cashierViewController {
     private Button mangoNPassionFruitTea;
 
     @FXML
+    private Button newOrder;
+
+    @FXML
     private Button orderButton;
 
     @FXML
@@ -232,6 +235,11 @@ public class cashierViewController {
 
     @FXML
     void goToCustomItemMenu(ActionEvent event) {
+
+    }
+
+    @FXML
+    void startNewOrder(ActionEvent event) {
 
     }
 
