@@ -85,6 +85,11 @@
          </children>
       </HBox>
       <Button fx:id="customitem" alignment="CENTER" mnemonicParsing="false" onAction="#goToCustomItemMenu" styleClass="menubuttons" stylesheets="@cashierview.css" text="Custom Item" />
+      <Button fx:id="newOrder" mnemonicParsing="false" onAction="#startNewOrder" styleClass="menubuttons" stylesheets="@cashierview.css" text="Start New">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Button>
       <Button id="orderbutton" fx:id="orderButton" alignment="CENTER" mnemonicParsing="false" onAction="#submitOrder" stylesheets="@cashierview.css" text="Submit Order">
          <styleClass>
             <String fx:value="menubuttons" />
