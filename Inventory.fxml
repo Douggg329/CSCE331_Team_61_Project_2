@@ -37,6 +37,8 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
@@ -83,7 +85,15 @@
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button layoutX="515.0" layoutY="303.0" mnemonicParsing="false" onAction="#returnHome" text="Return Home" />
+            <Button layoutX="504.0" layoutY="316.0" mnemonicParsing="false" onAction="#returnHome" text="Return Home" />
+            <Button layoutX="510.0" layoutY="146.0" mnemonicParsing="false" onAction="#addItem" text="Add Item" />
+            <Button layoutX="248.0" layoutY="316.0" mnemonicParsing="false" onAction="#saveChanges" text="Save Changes" />
+            <TableView layoutX="170.0" layoutY="38.0" prefHeight="266.0" prefWidth="245.0">
+              <columns>
+                <TableColumn prefWidth="182.4000244140625" text="Item Name" />
+                <TableColumn prefWidth="62.39996337890625" text="Quantity" />
+              </columns>
+            </TableView>
          </children></AnchorPane>
   </children>
 </VBox>
