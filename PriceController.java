@@ -29,12 +29,12 @@ public class PriceController {
     }
 
     @FXML
-    void displayChanges(ActionEvent event) {
+    void saveChanges(ActionEvent event) {
 
     }
 
     @FXML
     void deleteItem(ActionEvent event) {
-        
+
     }
 }

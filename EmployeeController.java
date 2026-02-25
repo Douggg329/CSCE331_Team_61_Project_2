@@ -22,4 +22,19 @@ public class EmployeeController {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    void addEmployee(ActionEvent event) {
+
+    }
+
+    @FXML
+    void saveChanges(ActionEvent event) {
+
+    }
+
+    @FXML
+    void removeEmployee(ActionEvent event) {
+        
+    }
 }

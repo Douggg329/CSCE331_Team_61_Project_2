@@ -22,4 +22,14 @@ public class InventoryController {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    void addItem(ActionEvent event) {
+
+    }
+
+    @FXML
+    void saveChanges(ActionEvent event) {
+
+    }
 }
