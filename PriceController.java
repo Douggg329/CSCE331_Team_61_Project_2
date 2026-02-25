@@ -22,4 +22,19 @@ public class PriceController {
             e.printStackTrace();
         }
     }
+
+    @FXML
+    void displayPopup(ActionEvent event) {
+
+    }
+
+    @FXML
+    void displayChanges(ActionEvent event) {
+
+    }
+
+    @FXML
+    void deleteItem(ActionEvent event) {
+
+    }
 }
