@@ -94,7 +94,7 @@
               </columns>
             </TableView>
             <Button layoutX="523.0" layoutY="187.0" mnemonicParsing="false" onAction="#removeEmployee" prefHeight="26.0" prefWidth="114.0" text="Remove Employee" />
-            <Button layoutX="530.0" layoutY="129.0" mnemonicParsing="false" onAction="#addItem" text="Add Employee" />
+            <Button layoutX="530.0" layoutY="129.0" mnemonicParsing="false" onAction="#addEmployee" text="Add Employee" />
             <Button layoutX="239.0" layoutY="334.0" mnemonicParsing="false" onAction="#saveChanges" text="Save Changes" />
          </children></AnchorPane>
   </children>
