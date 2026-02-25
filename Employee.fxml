@@ -88,8 +88,9 @@
             <Button layoutX="533.0" layoutY="335.0" mnemonicParsing="false" onAction="#returnHome" text="Return Home" />
             <TableView layoutX="14.0" layoutY="14.0" prefHeight="301.0" prefWidth="505.0">
               <columns>
-                <TableColumn prefWidth="75.0" text="C1" />
-                <TableColumn prefWidth="75.0" text="C2" />
+                <TableColumn prefWidth="264.0" text="Name" />
+                <TableColumn prefWidth="88.79998779296875" text="Salary" />
+                  <TableColumn prefWidth="152.0" text="Job Title" />
               </columns>
             </TableView>
             <Button layoutX="523.0" layoutY="187.0" mnemonicParsing="false" onAction="#removeEmployee" prefHeight="26.0" prefWidth="114.0" text="Remove Employee" />
