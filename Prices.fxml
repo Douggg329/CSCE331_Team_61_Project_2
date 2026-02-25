@@ -86,7 +86,7 @@
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
          <children>
             <Button layoutX="504.0" layoutY="316.0" mnemonicParsing="false" onAction="#returnHome" text="Return Home" />
-            <Button layoutX="510.0" layoutY="146.0" mnemonicParsing="false" onAction="#displayPopup" text="Add Item" />
+            <Button layoutX="510.0" layoutY="146.0" mnemonicParsing="false" onAction="#addItem" text="Add Item" />
             <Button layoutX="248.0" layoutY="316.0" mnemonicParsing="false" onAction="#saveChanges" text="Save Changes" />
             <TableView layoutX="114.0" layoutY="28.0" prefHeight="262.0" prefWidth="358.0">
               <columns>

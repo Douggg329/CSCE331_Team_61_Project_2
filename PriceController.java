@@ -24,7 +24,7 @@ public class PriceController {
     }
 
     @FXML
-    void displayPopup(ActionEvent event) {
+    void addItem(ActionEvent event) {
 
     }
 
@@ -35,6 +35,6 @@ public class PriceController {
 
     @FXML
     void deleteItem(ActionEvent event) {
-
+        
     }
 }
